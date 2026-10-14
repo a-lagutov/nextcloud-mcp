@@ -16,11 +16,11 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",
     "fast-xml-parser": "^5.0.0",
-    "zod": "^3.23.8"
+    "zod": "^4.6.6"
   },
   "devDependencies": {
-    "@types/node": "^22.10.0",
-    "typescript": "^5.7.0"
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
   },
   "engines": {
     "node": ">=20.12"
