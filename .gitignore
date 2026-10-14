@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.env
+setup-claude-desktop.sh
+publish-to-github.sh
+TOK

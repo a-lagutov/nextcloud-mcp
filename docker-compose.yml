@@ -1,0 +1,8 @@
+services:
+  nextcloud-mcp:
+    build: .
+    stdin_open: true
+    environment:
+      - NEXTCLOUD_URL=${NEXTCLOUD_URL}
+      - NEXTCLOUD_USER=${NEXTCLOUD_USER}
+      - NEXTCLOUD_APP_PASSWORD=${NEXTCLOUD_APP_PASSWORD}

@@ -1,0 +1,30 @@
+{
+  "name": "nextcloud-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Nextcloud — file management via WebDAV and OCS",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "nextcloud-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "login": "node dist/login-cli.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "fast-xml-parser": "^5.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "keywords": ["mcp", "nextcloud", "webdav", "cloud", "storage"],
+  "license": "MIT"
+}
